@@ -11378,7 +11378,7 @@ section.user_info h1, section.user_info .h1 {
   color: black;
 }
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -11399,4 +11399,8 @@ p {
 }
 a {
   color: inherit;
+}
+
+body {
+  padding-bottom: 50px;
 }
